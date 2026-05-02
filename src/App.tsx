@@ -103,6 +103,8 @@ export default function App() {
             <a 
               href="/resume.pdf" 
               download="Vignesh_Gunasekaran_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 text-[10px] font-mono text-white bg-slate-900 border border-slate-900 px-4 py-2 rounded-full hover:bg-white hover:text-slate-900 transition-all shadow-lg shadow-slate-200 uppercase tracking-widest"
             >
               <Download size={14} /> Resume

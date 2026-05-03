@@ -30,6 +30,7 @@ import {
 import { RESUME_DATA } from "./constants";
 import { BentoCard } from "./components/BentoCard";
 import { ContactForm } from "./components/ContactForm";
+import Certifications from "./components/Certifications";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -93,6 +94,7 @@ export default function App() {
           </div>
           <nav className="hidden md:flex gap-8 text-sm font-medium text-slate-500">
             <a href="#projects" className="hover:text-black transition-colors">Projects</a>
+            <a href="#certifications" className="hover:text-black transition-colors">Certifications</a>
             <a href="#experience" className="hover:text-black transition-colors">Experience</a>
             <a href="#contact" className="hover:text-black transition-colors group flex items-center gap-2">
               Contact
@@ -280,20 +282,8 @@ export default function App() {
             </div>
           </BentoCard>
 
-          {/* Certifications Box */}
-          <BentoCard variant="dark" className="md:col-span-2 p-10 border-none">
-            <div className="text-slate-400 text-[10px] font-mono uppercase tracking-[0.3em] mb-8">Validations</div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {RESUME_DATA.additional.certifications.map((cert, idx) => (
-                <div key={idx} className="flex items-start gap-4 group">
-                  <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center group-hover:bg-blue-600 transition-colors shrink-0">
-                    <CheckCircle size={20} className="text-blue-400 group-hover:text-white" />
-                  </div>
-                  <div className="text-xs font-bold tracking-tight opacity-70 group-hover:opacity-100 transition-opacity leading-snug">{cert}</div>
-                </div>
-              ))}
-            </div>
-          </BentoCard>
+          {/* Certifications */}
+          <Certifications />
 
           {/* Awards/Achievements */}
           <BentoCard variant="accent" className="md:col-span-2 group">

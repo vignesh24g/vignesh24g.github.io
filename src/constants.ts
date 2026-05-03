@@ -12,9 +12,9 @@ export const RESUME_DATA = {
     email: "vigneshgv2001@gmail.com",
     phone: "+91 6382366500",
     links: [
-      { name: "LinkedIn", url: "https://linkedin.com/in/vignesh-gunasekaran", type: "linkedin" },
-      { name: "Github", url: "https://github.com/vigneshgv", type: "github" },
-      { name: "LeetCode", url: "https://leetcode.com/vigneshgv", type: "code" }
+      { name: "LinkedIn", url: "https://linkedin.com/in/vignesh-gunasekaran24", type: "linkedin" },
+      { name: "Github", url: "https://github.com/vignesh24g", type: "github" },
+      { name: "LeetCode", url: "https://leetcode.com/u/vignesh24g/", type: "code" }
     ]
   },
   summary: "Data Engineer | PySpark Developer | Big Data Analyst & ETL Specialist | DEVOPS. Specialized in PySpark, SQL and Big Data environments including Hadoop, AWS, Databricks, and Snowflake. Architected tailored ETL pipelines, optimizing jobs for cost-efficiency and focused on data integrity and quality in the finance sector.",
@@ -65,31 +65,25 @@ export const RESUME_DATA = {
       title: "Automated ETL Pipeline",
       description: "Scalable data processing pipeline using AWS Glue and PySpark for processing banking transactions.",
       tech: ["PySpark", "AWS Glue", "S3", "Athena"],
-      github: "https://github.com/vigneshgv/etl-pipeline"
+      github: ""
     },
     {
       title: "Data Quality Framework",
       description: "Custom DQ framework to validate data integrity across massive Snowflake datasets.",
       tech: ["SQL", "Snowflake", "Python"],
-      github: "https://github.com/vigneshgv/dq-framework"
+      github: ""
     },
     {
       title: "Hadoop Migration Tool",
       description: "Automation scripts for migrating legacy Teradata tables to Apache Hadoop ecosystem.",
       tech: ["Hadoop", "Teradata", "Shell"],
-      github: "https://github.com/vigneshgv/migration-tool"
-    },
-    {
-      title: "Real-time Stream Processor",
-      description: "Kafka-based streaming application for real-time fraud detection in financial messages.",
-      tech: ["Kafka", "Python", "Spark Streaming"],
-      github: "https://github.com/vigneshgv/stream-processor"
+      github: ""
     },
     {
       title: "Cloud Data Warehouse Sync",
       description: "Automated synchronization tool between on-premise relational databases and Snowflake cloud.",
       tech: ["Python", "Snowflake", "Airflow"],
-      github: "https://github.com/vigneshgv/dw-sync"
+      github: ""
     }
   ],
   education: [
@@ -104,6 +98,12 @@ export const RESUME_DATA = {
       institution: "Tamil Nadu State Government Exam",
       period: "May 2018",
       details: "1170/1200, Achieved centum in Mathematics and Physics"
+    },
+    {
+      degree: "SSLC",
+      institution: "Tamil Nadu State Government Exam",
+      period: "May 2016",
+      details: "487/500, Achieved centum in Mathematics and Social science"
     }
   ],
   additional: {

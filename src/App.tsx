@@ -291,7 +291,7 @@ export default function App() {
               <div>
                 <div className="inline-block px-3 py-1 bg-white/20 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] mb-8 backdrop-blur-sm">Achievements</div>
                 <h3 className="text-3xl font-bold leading-tight mb-4 group-hover:translate-x-2 transition-transform">
-                  Awarded Emerging Star @ Barclays 2025
+                  Nominated for Emerging Star AWARD @ Barclays 2025
                 </h3>
               </div>
               <div className="flex items-center gap-3 text-xs font-bold uppercase tracking-widest mt-12 group-hover:gap-6 transition-all">
